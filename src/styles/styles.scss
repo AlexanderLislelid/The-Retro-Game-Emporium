@@ -32,6 +32,10 @@ nav a {
   transition: background-color 0.3s;
 }
 
+.navbar-brand {
+  padding: 0px 15px;
+}
+
 nav a:hover {
   background-color: #555;
 }

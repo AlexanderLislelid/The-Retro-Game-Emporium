@@ -42,6 +42,10 @@ const router = async () => {
 
   const view = new match.route.view(params);
   document.querySelector("#app").innerHTML = await view.getHtml();
+
+  if (typeof view.afterRender === "function") {
+    view.afterRender();
+  }
 };
 
 export function initRouter() {
