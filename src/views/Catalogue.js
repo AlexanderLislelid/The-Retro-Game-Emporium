@@ -22,7 +22,7 @@ export default class Catalogue extends AbstractView {
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
-      <button id="fetchGames">Fetch games</button>
+      <button id="fetchGames" class="btn btn-secondary">Fetch games</button>
     `;
   }
 
