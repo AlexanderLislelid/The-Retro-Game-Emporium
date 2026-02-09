@@ -21,21 +21,20 @@ export default class Catalogue extends AbstractView {
             <div>
               <h2>${game.name}</h2>
               <p><strong>${game.released}</strong></p>
-              <button
-                type="button"
-                class="btn btn-primary details-btn"
-                data-id="${game.id}"
-              >
-                Info
-              </button>
             </div>
-            <p>${game.description}</p>
             <img
               src=""
               alt="${game.name}"
               data-src="${game.image?.url}"
               class="lazy-load"
             />
+            <button
+              type="button"
+              class="btn btn-primary details-btn"
+              data-id="${game.id}"
+            >
+              Info
+            </button>
           </div>
         `,
       )
