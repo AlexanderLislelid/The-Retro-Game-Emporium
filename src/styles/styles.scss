@@ -44,3 +44,22 @@ nav a:hover {
   max-width: 800px;
   margin: 0 auto;
 }
+
+.card img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.card {
+  padding: 16px;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.game-cards-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

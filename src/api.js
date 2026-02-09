@@ -7,6 +7,11 @@ export async function fetchGames() {
   if (!response.ok) {
     throw new Error(`HTTP error! status: ${response.status}`);
   }
+  return result.data;
+}
 
+export async function fetchGameById(id) {
+  const response = await fetch(`${BASE_URL}/${id}`);
+  const result = await response.json();
   return result.data;
 }

@@ -11,6 +11,8 @@ export default class Home extends AbstractView {
             <h1>Welcome Home!</h1>
             <p>This is the home page of our Single Page Application.</p>
             <p>Navigate using the links above - notice how the page doesn't reload!</p>
+            
+  
         `;
   }
 }
